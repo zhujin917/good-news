@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>喜报生成器</title>
+	<link rel="icon" type="x-icon" href="./logo.jpg">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script type="text/javascript" src="./script.js"></script>
+	<script src="//asset.3sqrt7.com/js/dom-to-image.min.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<h1>喜报生成器</h1>
+		<p>祝您天天有喜报</p>
+		<input id="main_context" autofocus value="114514" />
+		<button id="main_make">生成</button>
+		<button id="main_makepic">使用图片</button><br>
+		<div id="main_choice">
+			<input name="news_type" type="radio" value="good" id="good" checked />
+			<label for="good" style="margin-right:10px">喜报</label>
+			<input name="news_type" type="radio" value="bad" id="bad" />
+			<label for="bad">悲报</label><br>
+		</div>
+		<div id="main_img"></div>
+		<button id="main_copy" style="margin-top: 12px;">复制</button>
+		<button id="main_save" style="margin-top: 12px;">另存为</button>
+		<button id="main_share" style="margin-top: 12px;">分享</button>
+	</div>
+	<input id="picSelector" type="file" accept="image/jpeg,image/png,image/webp" hidden />
+</body>
+
+</html>
