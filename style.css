@@ -74,6 +74,7 @@ html, body {
 	width: 650px;
 	height: 487px;
 	overflow: hidden;
+	font-size: 0;
 }
 #main_img .bg {
 	position: relative;
